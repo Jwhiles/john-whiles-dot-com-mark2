@@ -1,0 +1,19 @@
+{
+  "name": "john-whiles-dot-com-mark2",
+  "version": "1.0.0",
+  "description": "a new p website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jwhiles/john-whiles-dot-com-mark2.git"
+  },
+  "author": "john whiles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jwhiles/john-whiles-dot-com-mark2/issues"
+  },
+  "homepage": "https://github.com/Jwhiles/john-whiles-dot-com-mark2#readme"
+}
