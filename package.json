@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "surge ./public",
-    "start": "elm-live src/pages/home.elm --output=public/horses.js --dir=public --open --debug --pushstate"
+    "start": "elm-live src/pages/home.elm --output=public/main.js --dir=public --open --debug --pushstate",
+    "build": "elm-make src/pages/home.elm --output=public/main.js"
   },
   "repository": {
     "type": "git",

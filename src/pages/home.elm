@@ -43,6 +43,16 @@ title =
 cv =
     Markdown.toHtml [] """
 
+# John Whiles - Full Stack Developer
+
+I like the colour pink.
+
+"""
+
+
+fauxCv =
+    Markdown.toHtml [] """
+
 # John Whiles - CV
 ## Profile
 A full stack JavaScript developer based in London.
