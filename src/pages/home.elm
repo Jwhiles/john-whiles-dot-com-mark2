@@ -17,7 +17,7 @@ stylesheet =
 
 main =
     Element.layout stylesheet <|
-        el None [ center, width (px 800) ] <|
+        el None [ center, width (px 600) ] <|
             Element.column None
                 [ center, spacing 20 ]
                 [ Element.html cv
