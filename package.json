@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "surge ./public",
     "start": "elm-live src/pages/home.elm --output=public/horses.js --dir=public --open --debug --pushstate"
   },
   "repository": {
