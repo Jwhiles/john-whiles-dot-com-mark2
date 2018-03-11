@@ -20,14 +20,12 @@ main =
         el None [ center, width (px 800) ] <|
             Element.column None
                 [ center, spacing 20 ]
-                [ title
-                , Element.row None [ spread ] [ navStuff, picture ]
-                , Element.html cv
+                [ Element.html cv
                 ]
 
 
 navStuff =
-    Element.column None [ center, spacing 20 ] [ title, title, title ]
+    Element.row None [ spread, spacing 20 ] [ title, title, title ]
 
 
 picture =
